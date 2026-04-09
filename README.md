@@ -35,10 +35,15 @@ une Application de cryptographie permettant de crypter et decrypter des données
 - **Element reçent** (Au fil du temps)
   
 1**Données**
+
 2**Action**
-2**Methode de cryptage**
+
+3**Methode de cryptage**
+
 4**Afficher**
+
 5**Incription/Connexion**
+
 6**Element reçent**
   
 ---

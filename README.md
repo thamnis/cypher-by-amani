@@ -33,12 +33,12 @@ une Application de cryptographie permettant de crypter et decrypter des données
 - **Afficher** les données directement où dans un fichier teléchagable
 - **Incription/connexion** ( Au fil du temps)
 - **Element reçent** (Au fil du temps)
-1-**Données**
-  **Action**
-  **Methode de cryptage**
-  **Afficher**
-  **Incription/Connexion**
-  **Element reçent**
+1**Données**
+2**Action**
+2**Methode de cryptage**
+4**Afficher**
+5**Incription/Connexion**
+6**Element reçent**
   
 ---
 

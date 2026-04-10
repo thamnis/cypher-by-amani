@@ -4,7 +4,7 @@ une Application de cryptographie permettant de crypter et decrypter des données
 - Recuperer les données
 - Proposer deux options : **Crypter**  ou **Decrypter**
 - En fonction de l'option choisir, afficher les nouvelles données
-- methode cryptographie : *Code ce Cesar*
+- methode cryptographie : *Code de Cesar*
 
 ---
 

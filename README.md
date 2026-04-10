@@ -42,8 +42,7 @@ une Application de cryptographie permettant de crypter et decrypter des données
 Clone le repo
 ```bash
 git clone https://github.com/kouadio3amani-lang/chiffrement-dechiffrement.git
-cd 
-chiffrement.py
+python chiffrement.py
 ```
 
 

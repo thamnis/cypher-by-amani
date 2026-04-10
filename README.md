@@ -1,12 +1,13 @@
 # 🔐CryptoSpace
 une Application de cryptographie permettant de crypter et decrypter des données: recuprer des données, crypter ou decrypter en fonction du type d'information, et afficher.
+
+---
+
 ## Comment ça marche
 - Recuperer les données
 - Proposer deux options : **Crypter**  ou **Decrypter**
 - En fonction de l'option choisir, afficher les nouvelles données
 - methode cryptographie : *Code de Cesar*
-
----
 
 ## Prochaines étapes
 - Integration d'un **interface graphique**
@@ -17,8 +18,6 @@ une Application de cryptographie permettant de crypter et decrypter des données
   Faire marcher le programme même s'il n'est pas beau
   ### Etape 2:
   Avancer et améliorer au fuir à mesure
-
----
 
 ## Fonctionnalités 
 - Recuperation **données** par saisir ou à partir d'un fichier externe

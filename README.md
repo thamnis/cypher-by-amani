@@ -39,7 +39,7 @@ Une application de cryptographie.
 - Historique des opérations
 - Récupération de donnée distante (À venir)
 
-## Installation
+## Utilisation
 
 ```bash
 git clone https://github.com/kouadio3amani-lang/chiffrement-dechiffrement.git

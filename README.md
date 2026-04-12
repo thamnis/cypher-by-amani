@@ -1,53 +1,48 @@
-# 🔐CryptoSpace
-une Application de cryptographie permettant de crypter et decrypter des données: recuprer des données, crypter ou decrypter en fonction du type d'information, et afficher.
+# CryptoSpace 🔐
 
----
+Une application de cryptographie.
 
 ## Comment ça marche
-- Recuperer les données
-- Proposer deux options : **Crypter**  ou **Decrypter**
-- En fonction de l'option choisir, afficher les nouvelles données
-- methode cryptographie : *Code de Cesar*
+
+- Recupère les données
+- Propose deux options :
+  - **Crypter** (1)
+  - **Decrypter** (2)
+
+- En fonction de l'option choisie :
+  - **Retourner le cypher** (1)
+  - **Retourner la donnée en clair** (2)
+- méthodes cryptographiques :
+  - **Code Cesar**
+  - _l'implémentation des autres méthodes se fera au fil du temps_
+
+## Implémentations futures
+
+- Integration d'une **interface graphique**
+- Intégration d'autres **methodes de cryptographie**
+- **Integration d'une version web**
 
 ## Prochaines étapes
-- Integration d'un **interface graphique**
-- Intégration d'autres **methodes de cryptographie**
-- **Integration sur le web**
-## Methode de conception
-  ### Etape 1:
-  Faire marcher le programme même s'il n'est pas beau
-  ### Etape 2:
-  Avancer et améliorer au fuir à mesure
 
-## Fonctionnalités 
-- Recuperation **données** par saisir ou à partir d'un fichier externe
-- Demande d'**Action** à effectuer
-- Demande de **Methode de cryptographie**
-- **Afficher** les données directement où dans un fichier teléchagable
-  
-## future fonctionnalités
-- **Incription/connexion** 
-- **Element reçent** 
-  
-1. **Données**
-2. **Action**
-3. **Methode de cryptage**
-4. **Afficher**
-5. **Incription/Connexion**
-6. **Element reçent**
-  
----
+1. Développer la logique métier
+1. Préparer et faire les tests unitaires
 
-## ⚙️Installation
-Clone le repo
+## Fonctionnalités
+
+- Entrée de **données** à partir de :
+  - la saisie utilisateur
+  - un fichier
+- Chiffrement/déchiffrement de données
+
+## Future fonctionnalités
+
+- Historique des opérations
+- Récupération de donnée distante (À venir)
+
+## Installation
+
 ```bash
 git clone https://github.com/kouadio3amani-lang/chiffrement-dechiffrement.git
+cd chiffrement-dechiffrement/
 python chiffrement.py
 ```
-
-
-
-        
-
-
-

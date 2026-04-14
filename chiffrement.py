@@ -14,12 +14,13 @@ def Chyffer_Logical(data,key=3,decode=False):
 # saisir utilisateur
 def Recup_Data():
     data = input("votre message : ")
+    data = data.replace("é","e").replace("ê","e").replace("è","e").replace("î","i").replace("à","a").replace("â","a").replace("ù","u").replace("ï","i")
     options = input("Choisissez une optione :\n1.crypter\n2.decrypter\nchoix : ")
     if options == "1":
         encode = Chyffer_Logical(data)
         print(f"Le message crypté est : {encode}")
     elif options == "2":
-        encode = Chyffer_Logical(data)
+        encode = Chyffer_Logical(data.capitalize())
         decode = Chyffer_Logical(encode, decode=True)
         print(f"le message decrypté est : {decode}")
     else:

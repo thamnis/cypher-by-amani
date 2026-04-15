@@ -1,5 +1,5 @@
 # logique
-def Chyffer_Logical(data,key=3,decode=False):
+def chyffer_logical(data,key=3,decode=False):
     crypted =""
     if decode:
         key = -key
@@ -12,23 +12,23 @@ def Chyffer_Logical(data,key=3,decode=False):
             crypted += letter
     return crypted
 # saisir utilisateur
-def Recup_Data():
+def recup_data():
     data = input("votre message : ")
     data = data.replace("é","e").replace("ê","e").replace("è","e").replace("î","i").replace("à","a").replace("â","a").replace("ù","u").replace("ï","i")
     options = input("Choisissez une optione :\n1.crypter\n2.decrypter\nchoix : ")
     if options == "1":
-        encode = Chyffer_Logical(data)
+        encode = chyffer_logical(data)
         print(f"Le message crypté est : {encode}")
     elif options == "2":
-        encode = Chyffer_Logical(data.capitalize())
-        decode = Chyffer_Logical(encode, decode=True)
+        encode = chyffer_logical(data.capitalize())
+        decode = chyffer_logical(encode, decode=True)
         print(f"le message decrypté est : {decode}")
     else:
         print(f"Choix indisponible") 
 
 # Menu de lancement
-def Main_Call():
-    Recup_Data()
+def main_call():
+    recup_data()
       
 if __name__=='__main__':
-    Main_Call()
+    main_call()
